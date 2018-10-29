@@ -91,42 +91,6 @@ end
 def all_holidays_with_bbq(holiday_hash)
         # return an array of holiday names (as symbols) where supply lists
         # include the string "BBQ"
-  holiday_hash.collect do |season, holiday|
-    if season == :fall
-    else season == :spring
-   
-    holiday.collect do |name, supplies|
-    
-      if supplies.include?("BBQ")
-         supplies.compact.flatten
-        end
-      end
-    end
-    end
-  
-
-  
         
-
-
-
-
-
-      #   :winter => {
-      #     :christmas => ["Lights", "Wreath"],
-      #     :new_years => ["Party Hats"]
-      #   },
-      #   :summer => {
-      #     :fourth_of_july => ["Fireworks", "BBQ"]
-      #   },
-      #   :fall => {
-      #     :thanksgiving => ["Turkey"]
-      #   },
-      #   :spring => {
-      #     :memorial_day => ["BBQ"]
-      #   }
-      # }
-
-
-
+        
 end
